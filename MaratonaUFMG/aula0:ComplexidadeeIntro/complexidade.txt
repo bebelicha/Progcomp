@@ -1,0 +1,15 @@
+Dizemos que f(x) e O(g(x)) sse existem constantes C e N tal que:
+|f(x)| <= C|g(x)|, para todo x > N
+Ou seja, ignoramos a constante, uma função domina a outra
+f(x) pertence a O(g(x)) se g(x) é teto para f(x)
+    Se a partir de algum ponto g(x) domina f(x)
+Propriedades:
+    - Se f(x) e O(g(x)) então k.f(x) e O(g(x))
+    - Se f1 e O(g1) e f2 e O(g2) ent f1+f2 e O(max(g1,g2))
+    - Se f1 e O(g1) e f2 e O(g2) ent f1.f2 e O(g1.g2)
+A razãp entre bases de log é constante, entao podemos ignorar
+Pds 1 operações = tempo constante
+cada loop multiplica n
+sort padrao c++ O(n.log(n)) (sort(v.begin(), v.end());)
+
+Progcomp: se o seu código realiza menos de 10ˆ9 operções ele vai passar no tempo
